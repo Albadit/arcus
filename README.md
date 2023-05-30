@@ -1,2 +1,2 @@
 # arcus
-[Link text](https://albadit.github.io/arcus/)
+[https://albadit.github.io/arcus/](https://albadit.github.io/arcus/)
