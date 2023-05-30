@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-color-one: #C29A77;
+    --primary-color-two: #FFFFFF;
+
+    --primary-section-color: #090D10;
+    --primary-bg-color: #0E1317;
+
+    /* Button */
+    --primary-btn-color: #222E3C;
+    --primary-btn-text-color: #FFFFFF;
+    --primary-btn-border-color: #C29A77;
+    --primary-btn-hover-color: #1C2B3A;
+
+    /* Line */
+    --line-color: #C29A77;
+    --rhombus-scale: 10;
+
+    /* Font Size */
+    --headline: clamp(56px, -0.875rem + 8.333vw, 62px);
+    --subheadline: clamp(18px, -0.875rem + 8.333vw, 32px);
+    --body: clamp(14px, -0.875rem + 8.333vw, 18px);
+    --lables: clamp(12px, -0.875rem + 8.333vw, 16px);
+    --lables-a: 16px;
+    --code-snippets: 14px;
+}
