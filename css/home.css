@@ -11,11 +11,11 @@ html {
 /* line */
 .line {
   max-width: 250px;
-  margin: 24px 0;
   position: relative;
 }
 
 .rhombus-line {
+  margin: 12px 0;
   height: 1px;
   background-color: var(--line-color);
 }
@@ -156,6 +156,13 @@ ul {
   color: var(--primary-color-two);
 }
 
+.extra-contant {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 16px;
+  color: var(--primary-color-one);
+}
+
 
 /* header */
 header {
@@ -217,10 +224,8 @@ header div {
 
 #head-title {
   text-align: center;
-}
-
-#head-title > * {
-  margin: 20px 0;
+  max-width: 630px;
+  padding: 0 15px;
 }
 
 #head-title .head-title {
@@ -228,14 +233,13 @@ header div {
 }
 
 #head-title .line {
-  margin: 24px auto;
+  margin: 12px auto;
   max-width: 350px;
 }
 
 #head-title .discription {
   padding: 0 15px;
   margin: 55px auto 60px auto;
-  max-width: 630px;
 }
 
 #title .image {
@@ -271,25 +275,30 @@ header div {
 #about-us {
   display: flex;
   justify-content: center;
-  /* justify-content: space-evenly; */
   margin: 50px 0;
 }
 
-#about-contant .second-title {
+#about-contant {
   margin: 0 25px;
+  max-width: 450px;
 }
 
-#about-contant > * {
-  margin: 25px;
+#about-contant > *{
+  margin: 15px 0;
+}
+
+#about-contant .second-title {
+  margin: 0;
 }
 
 #about-contant .line {
-  margin-left: 35px;
+  margin: 24px 0 24px 10px;
+  max-width: 180px;
 }
 
-#about-contant .discription {
-  margin-bottom: 40px;
-  max-width: 315px;
+#about-contant .extra-contant {
+  font-size: 18px;
+  margin-bottom: 40px
 }
 
 #about-us .image {
@@ -311,13 +320,13 @@ header div {
 }
 
 #about-us .image img:nth-child(2) {
-  bottom: -45px;
-  left: 0;
+  bottom: -65px;
+  left: 0px;
 }
 
 #about-us .image p {
   position: absolute;
-  bottom: -105px;
+  bottom: -115px;
   left: 40%;
 
   font-family: Allura;
@@ -325,6 +334,77 @@ header div {
   color: var(--primary-color-one);
 }
 
+#menu {
+  margin: 200px auto;
+  padding: 50px;
+  max-width: 1000px;
+  background-color: var(--primary-section-color);
+}
+
+#menu-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
+}
+
+#menu > div {
+  text-align: center;
+}
+
+#menu .second-title {
+  margin-bottom: 18px;
+}
+
+#menu .line {
+  margin: 24px auto;
+  max-width: 150px;
+}
+
+#menu .product {
+  margin-bottom: 25px;
+  max-width: 360px;
+  width: 100%;
+  display: grid;
+  justify-items: start;
+  align-items: end;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+    "product-title product-line product-price"
+    "product-discription product-discription product-discription";
+}
+
+#menu .product-title {
+  grid-area: product-title;
+  font-family: Akshar;
+  font-weight: 300;
+  font-size: 20px
+}
+
+#menu .product-discription {
+  grid-area: product-discription;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  opacity: 50%;
+  margin-top: 10px;
+  text-align: left;
+}
+
+#menu .product-line {
+  grid-area: product-line;
+  height: 1px;
+  width: 90%;
+  margin: 0 auto 6px auto;
+  background-color: var(--primary-color-one);
+}
+
+#menu .product-price {
+  grid-area: product-price;
+  font-family: Akshar;
+  font-weight: 300;
+  font-size: 16px
+}
 
 @media (width <= 1024px) {
   #nav {
@@ -345,5 +425,9 @@ header div {
 
   #about-us .image {
     display: none;
+  }
+
+  #menu-content {
+    grid-template-columns: auto;
   }
 }
