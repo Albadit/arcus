@@ -1,11 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
   background-color: var(--primary-bg-color);
   color: white;
+}
+
+main section:not(#title) {
+  margin-top: 200px;
 }
 
 /* line */
@@ -275,7 +280,9 @@ header div {
 #about-us {
   display: flex;
   justify-content: center;
-  margin: 50px 0;
+  padding-bottom: 90px;
+  /* height: 500px; */
+  /* margin: 50px 0; */
 }
 
 #about-contant {
@@ -335,20 +342,23 @@ header div {
 }
 
 #menu {
-  margin: 200px auto;
-  padding: 50px;
-  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 75px 55px;
+  max-width: 1050px;
   background-color: var(--primary-section-color);
+}
+
+#menu-title {
+  text-align: center;
+  margin-bottom: 45px;
 }
 
 #menu-content {
   display: grid;
   grid-template-columns: auto auto;
   justify-items: center;
-}
-
-#menu > div {
-  text-align: center;
+  margin-bottom: 45px;
 }
 
 #menu .second-title {
@@ -362,9 +372,10 @@ header div {
 
 #menu .product {
   margin-bottom: 25px;
-  max-width: 360px;
+  max-width: 370px;
   width: 100%;
   display: grid;
+  align-content: center;
   justify-items: start;
   align-items: end;
   grid-template-columns: auto 1fr auto;
