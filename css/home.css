@@ -9,7 +9,7 @@ html {
   color: white;
 }
 
-main section:not(#title) {
+main section:not(#title, #video) {
   margin-top: 200px;
 }
 
@@ -168,6 +168,19 @@ ul {
   color: var(--primary-color-one);
 }
 
+.name {
+  font-family: "Akshar";
+  font-weight: 300;
+  font-size: 22px;
+  color: var(--primary-color-two);
+}
+
+.role {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 18px;
+  color: var(--primary-color-one);
+}
 
 /* header */
 header {
@@ -256,7 +269,7 @@ header div {
   width: calc(100vw / 4);
   height: calc(100vh / 2 + 75px);
   object-fit: cover;
-  filter: brightness(0.6);
+  filter: brightness(0.7);
 }
 
 #title .image img:nth-child(1) {
@@ -317,7 +330,7 @@ header div {
   position: absolute;
   height: calc(100% / 2 + 15px);
   object-fit: cover;
-  filter: brightness(0.6);
+  filter: brightness(0.7);
 }
 
 #about-us .image img:nth-child(1) {
@@ -341,6 +354,7 @@ header div {
   color: var(--primary-color-one);
 }
 
+/* menu */
 #menu {
   text-align: center;
   margin: 0 auto;
@@ -417,6 +431,99 @@ header div {
   font-size: 16px
 }
 
+/* video */
+#video iframe {
+  width: 100%;
+  height: 460px;
+}
+
+/* team */
+#team {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+#team-contant {
+  text-align: center;
+  margin: 0 25px;
+  max-width: 450px;
+}
+
+#team-contant > * {
+  margin: 15px 0;
+}
+
+#team-contant .second-title {
+  margin: 0;
+}
+
+#team-contant .line {
+  margin: 12px auto;
+  max-width: 150px;
+}
+
+#team-contant .card {
+  display: flex;
+  justify-content: center;
+}
+
+#team-contant .profile {
+  position: relative;
+  margin: 15px 25px;
+  width: max(100%, 265px);
+}
+
+#team-contant .profile img {
+  filter: brightness(0.7);
+}
+
+#team-contant .profile div {
+  position: absolute;
+  bottom: calc(0% - 41px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 25px;
+  width: 90%;
+  background: #090D10;
+}
+
+/* guestbook */
+#guestbook {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 90px;
+  background-color: var(--primary-section-color);
+}
+
+#guestbook img  {
+  max-height: 450px;
+  max-width: 100%;
+  margin: 0 auto;
+  filter: brightness(0.7);
+}
+
+#guestbook-contant {
+  margin-right: 75px;
+  padding: 15px;
+  max-width: 450px;
+}
+
+#guestbook-contant > * {
+  margin: 15px 0;
+}
+
+#guestbook-contant .second-title {
+  margin: 0;
+}
+
+#guestbook-contant .line {
+  margin: 24px 0 24px 10px;
+  max-width: 100px;
+}
+
+
 @media (width <= 1024px) {
   #nav {
     display: none;
@@ -440,5 +547,18 @@ header div {
 
   #menu-content {
     grid-template-columns: auto;
+  }
+
+  #team-contant .card {
+    display: block;
+  }
+  
+  #team-contant .profile {
+    margin: 25px 0 60px 0;
+  }
+  
+  #guestbook {
+    display: flex;
+    flex-direction: column;
   }
 }
