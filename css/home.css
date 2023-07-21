@@ -7,6 +7,8 @@
 html {
   background-color: var(--primary-bg-color);
   color: white;
+  scroll-behavior: smooth;
+  scroll-padding: 75px;
 }
 
 main section:not(#title, #video) {
@@ -508,7 +510,7 @@ header div {
 
 #guestbook-contant {
   margin-right: 75px;
-  padding: 15px;
+  padding: 25px 15px;
   max-width: 400px;
 }
 
@@ -625,13 +627,12 @@ footer #media > p {
 
 footer #media .icon {
   margin-top: 10px;
-  height: 25px;
   display: flex;
   justify-content: space-evenly;
 }
 
 footer #media .icon a img {
-  height: 25px;
+  height: 20px;
   filter: brightness(0) invert(1);
 }
 
@@ -652,18 +653,22 @@ footer #hours p {
   margin: 20px 0;
 }
 
+@media (width <= 1440px) {
+  #gallery img:nth-child(n) {
+    margin: 30px 20px;
+  }
+}
+
 @media (width <= 1024px) {
-  #nav {
-    display: none;
+  main section:not(#title, #video) {
+    margin-top: 100px;
   }
 
   #head-title .head-title {
     font-size: 55px;
   }
 
-  #title .image {
-    display: none;
-  }
+
 
   #about-us {
     grid-template-columns: 1fr;
@@ -689,15 +694,21 @@ footer #hours p {
     display: flex;
     flex-direction: column;
   }
-}
-
-@media (width <= 1440px) {
-  #gallery img:nth-child(n) {
-    margin: 30px 20px;
+  
+  #info {
+    margin-bottom: 100px;
   }
 }
 
 @media (width <= 768px) {
+  #nav {
+    display: none;
+  }
+
+  #title .image {
+    display: none;
+  }
+
   footer #contacts, footer #media,  footer #hours {
     text-align: center;
     margin: 25px;
