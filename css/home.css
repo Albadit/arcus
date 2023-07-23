@@ -1,3 +1,5 @@
+@import url(/css/style.base.css);
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +13,7 @@ html {
   scroll-padding: 75px;
 }
 
-main section:not(#title, #video) {
+main section:not(#home, #video) {
   margin-top: 200px;
 }
 
@@ -157,7 +159,7 @@ h3 {
   color: var(--primary-color-two);
 }
 
-.discription {
+.description {
   font-family: "Akshar";
   font-weight: 300;
   font-size: 16px;
@@ -187,6 +189,10 @@ h3 {
 
 /* header */
 header {
+  /* position: fixed;
+  z-index: 100;
+  width: 100%; */
+  /*  */
   height: 75px;
   background-color: var(--primary-section-color);
   display: flex;
@@ -234,7 +240,7 @@ header div {
 }
 
 /* title */
-#title {
+#home {
   height: calc(100vh - 75px);
   min-height: 500px;
   display: flex;
@@ -258,36 +264,40 @@ header div {
   max-width: 350px;
 }
 
-#head-title .discription {
+#head-title .description {
   padding: 0 15px;
   margin: 55px auto 60px auto;
 }
 
-#title .image {
+#home .image {
   z-index: -1;
 }
 
-#title .image img {
+#home .image img {
   position: absolute;
-  width: calc(100vw / 4);
+  /* width: calc(100vw / 4);
   height: calc(100vh / 2 + 75px);
-  object-fit: cover;
+  object-fit: cover; */
   filter: brightness(0.7);
 }
 
-#title .image img:nth-child(1) {
+#home .image img:nth-child(1) {
+  width: 20%;
   top: 0;
   left: 0;
 }
-#title .image img:nth-child(2) {
-  bottom: 0;
-  left: 10%;
+#home .image img:nth-child(2) {
+  width: 25%;
+  bottom: 6%;
+  left: 8%;
 }
-#title .image img:nth-child(3) {
-  top: 0;
+#home .image img:nth-child(3) {
+  width: 25%;
+  top: 6%;
   right: 10%;
 }
-#title .image img:nth-child(4) {
+#home .image img:nth-child(4) {
+  width: 16%;
   bottom: 0;
   right: 0;
 }
@@ -331,7 +341,6 @@ header div {
 
 #about-us .image img {
   position: absolute;
-  height: calc(100% / 2 + 15px);
   object-fit: cover;
   filter: brightness(0.7);
 }
@@ -366,7 +375,7 @@ header div {
   background-color: var(--primary-section-color);
 }
 
-#menu-title {
+#menu-titles {
   text-align: center;
   margin-bottom: 45px;
 }
@@ -399,7 +408,7 @@ header div {
   grid-template-rows: auto auto;
   grid-template-areas: 
     "product-title product-line product-price"
-    "product-discription product-discription product-discription";
+    "product-description product-description product-description";
 }
 
 #menu .product-title {
@@ -409,8 +418,8 @@ header div {
   font-size: 20px
 }
 
-#menu .product-discription {
-  grid-area: product-discription;
+#menu .product-description {
+  grid-area: product-description;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 12px;
   font-weight: 300;
@@ -504,7 +513,6 @@ header div {
 #guestbook img  {
   max-height: 450px;
   max-width: 100%;
-  margin: 0 auto;
   filter: brightness(0.7);
 }
 
@@ -571,7 +579,7 @@ header div {
   color: var(--primary-color-one);
 }
 
-.info-discription {
+.info-description {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 18px;
@@ -654,21 +662,25 @@ footer #hours p {
 }
 
 @media (width <= 1440px) {
+  #home .image img {
+    width: calc(100vw / 4);
+    height: calc(100vh / 2 + 75px);
+    object-fit: cover;
+  }
+
   #gallery img:nth-child(n) {
     margin: 30px 20px;
   }
 }
 
 @media (width <= 1024px) {
-  main section:not(#title, #video) {
+  main section:not(#home, #video) {
     margin-top: 100px;
   }
 
   #head-title .head-title {
     font-size: 55px;
   }
-
-
 
   #about-us {
     grid-template-columns: 1fr;
@@ -705,9 +717,9 @@ footer #hours p {
     display: none;
   }
 
-  #title .image {
+  #home .image {
     display: none;
-  }
+  } 
 
   footer #contacts, footer #media,  footer #hours {
     text-align: center;

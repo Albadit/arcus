@@ -1,0 +1,375 @@
+[
+    {
+        "language": {
+            "al": "Albanie",
+            "mk": "Macedonie",
+            "en": "English",
+            "de": "German"
+        },
+        "headerNav": {
+            "home": {
+                "id": "header-home",
+                "link": "home",
+                "al": "Shtëpi",
+                "mk": "Дома",
+                "en": "home",
+                "de": "Heim"
+            },
+            "aboutUs": {
+                "id": "header-about",
+                "link": "about-us",
+                "al": "Rreth nesh",
+                "mk": "За нас",
+                "en": "About us",
+                "de": "Über uns"
+            },
+            "menu": {
+                "id": "header-menu",
+                "link": "menu",
+                "al": "Menu",
+                "mk": "Мени",
+                "en": "Menu",
+                "de": "Speisekarte"
+            },
+            "contacts": {
+                "id": "header-contacts",
+                "link": "contacts",
+                "al": "Kontaktet",
+                "mk": "Контакти",
+                "en": "Contacts",
+                "de": "Kontakte"
+            }
+        },
+        "title": {
+            "titleWelcome": {
+                "id": "title-welcome",
+                "al": "Mirësevini në Restorantin tonë",
+                "mk": "Добредојдовте во нашиот ресторан",
+                "en": "Welcome to Our Restaurant",
+                "de": "Willkommen in unserem Restaurant"
+            },
+            "titleHead": {
+                "id": "title-head",
+                "al": "Restaurant Arcus",
+                "mk": "Ресторан Аркус",
+                "en": "Restaurant Arcus",
+                "de": "Restaurant Arcus"
+            },
+            "titledescription": {
+                "id": "title-description",
+                "al": "Restoranti është një hapësirë ​​organike që reflekton kuzhinën e frymëzuar nga natyra. Ndërveprimi i teksturave dhe ngjyrave sjell jetë dhe një gjallëri që përqafon vendin e restorantit në rrethin e veshjeve.",
+                "mk": "Ресторанот е органски простор кој ја одразува кујната инспирирана од природата. Интеракцијата на текстурите и бојата носи живот и живост што го опфаќа местото на ресторанот во кругот на облекување.",
+                "en": "The restaurant is an organic space reflective of nature inspired cuisine. The interplay of textures and color brings life and a vibrancy that embraces the restaurant's place in the dress circle.",
+                "de": "Das Restaurant ist ein organischer Raum, der die von der Natur inspirierte Küche widerspiegelt. Das Zusammenspiel von Texturen und Farben bringt Leben und eine Lebendigkeit, die dem Restaurant seinen Platz im Kleiderkreis verleiht."
+            },
+            "titleBtn": {
+                "id": "title-btn",
+                "al": "Zbuloni Më shumë",
+                "mk": "Откријте повеќе",
+                "en": "Discover More",
+                "de": "Entdecke mehr"
+            }
+        },
+        "aboutUs": {
+            "aboutRelease": {
+                "id": "about-release",
+                "al": "Viti 2016",
+                "mk": "Од 2016 г",
+                "en": "Since 2016",
+                "de": "Seit 2016"
+            },
+            "aboutTitle": {
+                "id": "about-title",
+                "al": "Rreth Nesh",
+                "mk": "За нас",
+                "en": "About Us",
+                "de": "Über uns"
+            },
+            "aboutHead": {
+                "id": "about-head",
+                "al": "Historia jonë",
+                "mk": "Нашата приказна",
+                "en": "Our Story",
+                "de": "Unsere Geschichte"
+            },
+            "aboutdescription": {
+                "id": "about-description",
+                "al": "Restorant \"ARCUS\", një kështjellë në bregdetin e qytetit në hyrje të Kumanovës, është vendi i përsosur për një mëngjes dhe drekë biznesi, darkë të përbashkët me miqtë ose thjesht për një kafe apo gotë verë të mirë. <br><br> \"ARCUS\" është për të gjithë, një ambient perfekt ku mund të relaksoheni dhe të kujtoni momentet e paharrueshme, të kaluara së bashku me familjen, të afërmit, miqtë e dashur.",
+                "mk": "Ресторан \"ARCUS\", замок на брегот на градот на влезот во Куманово, е совршено место за деловен појадок и ручек, заедничка вечера со пријателите или само за добро кафе или чаша вино. <br><br> \"ARCUS\" е за секого, совршено опкружување каде можете да се опуштите и да се потсетите на незаборавните моменти поминати заедно со семејството, роднините, драгите пријатели.",
+                "en": "Restaurant \"ARCUS\", a castle on the coast of the city at the entrance to Kumanovo, is the perfect place for a business breakfast and lunch, shared dinner with friends or just for a good coffee or glass of wine. <br><br> \"ARCUS\" is for everyone, a perfect environment where you can relax and remember the unforgettable moments, spent together with family, relatives, dear friends.",
+                "de": "Das Restaurant \"ARCUS\", ein Schloss an der Küste der Stadt am Eingang von Kumanovo, ist der perfekte Ort für ein Geschäftsfrühstück und -mittagessen, ein gemeinsames Abendessen mit Freunden oder einfach nur für einen guten Kaffee oder ein Glas Wein. <br><br> \"ARCUS\" ist für alle eine perfekte Umgebung, in der Sie sich entspannen und an unvergessliche Momente erinnern können, die Sie gemeinsam mit der Familie, Verwandten und lieben Freunden verbracht haben."
+            },
+            "aboutExtra": {
+                "id": "about-extra",
+                "al": "Na pëshpëritni për ndjenjat tuaja dhe ne do të përgatisim atë që ju nevojitet tani.",
+                "mk": "Шепнете ни за вашите чувства, а ние ќе го подготвиме она што ви треба сега.",
+                "en": "Whisper to us about your feelings, and we will prepare what you need now.",
+                "de": "Flüstern Sie uns Ihre Gefühle zu und wir bereiten vor, was Sie jetzt brauchen."
+            },
+            "aboutbtn": {
+                "id": "about-btn",
+                "al": "Zbuloni Më shumë",
+                "mk": "Откријте повеќе",
+                "en": "Discover More",
+                "de": "Entdecke mehr"
+            }
+        },
+        "menu": {
+            "menuTitle": {
+                "id": "menu-title",
+                "al": "Nga menyja jonë",
+                "mk": "Од нашето мени",
+                "en": "From Our Menu",
+                "de": "Aus unserer Speisekarte"
+            },
+            "menuHead": {
+                "id": "menu-head",
+                "al": "Provoni Ofertat tona Speciale",
+                "mk": "Пробајте ги нашите специјални понуди",
+                "en": "Try Our Special Offers",
+                "de": "Probieren Sie unsere Sonderangebote aus"
+            },
+            "menuProduct": [
+                {
+                    "name": {
+                        "al": "Supë Pule",
+                        "mk": "Пилешка Чорба",
+                        "en": "Chicken Soup",
+                        "de": "Hühnersuppe"
+                    },
+                    "description": {"al": "", "mk": "", "en": "", "de": ""},
+                    "price": 140
+                },
+                {
+                    "name": {
+                        "al": "L'Ordevre \"ARCUS\"",
+                        "mk": "L'Ordevre \"ARCUS\"",
+                        "en": "L'Ordevre \"ARCUS\"",
+                        "de": "L'Ordevre \"ARCUS\""
+                    },
+                    "description": {
+                        "al": "proshutë, sallamë viçi, sallatë, djathëra, kaçkavall i përzier",
+                        "mk": "пршута, кулен, салама, сирење, мешан кашкавал, марула и маслинка",
+                        "en": "prosciutto, ham, cheese, edamer",
+                        "de": "prosciutto, schinken, käse, edamer"
+                    },
+                    "price": 350
+                },
+                {
+                    "name": {
+                        "al": "Sallatë Tuna",
+                        "mk": "Туна Салата",
+                        "en": "Tonno Salad",
+                        "de": "Tonno-Salat"
+                    },
+                    "description": {
+                        "al": "marulle, tuna,  qepë, sherri domate, misër, limon, kapër",
+                        "mk": "туна, марула, кромид, шери, пченка, лимон, капер",
+                        "en": "tonno fish, lettuce, onion, pomodorini",
+                        "de": "tonno-fisch, salat, zwiebel, pomodorini"
+                    },
+                    "price": 250
+                },
+                {
+                    "name": {
+                        "al": "Alexander the great",
+                        "mk": "Александар Велики",
+                        "en": "Alexandar the great",
+                        "de": "Alexandar the great"
+                    },
+                    "description": {
+                        "al": "salcë domatesh, kaçkavall, proshutë, rukola, oregano",
+                        "mk": "сос од домати, кашкавал, пршута, рукола, оригано",
+                        "en": "tomato sauce,yellow cheese, ham, rukola, oregano, olives oil",
+                        "de": "tomatensauce, gelber käse, schinken, rukola, oregano, olivenöl"
+                    },
+                    "price": 310
+                },
+                {
+                    "name": {
+                        "al": "Amatriçiana",
+                        "mk": "Аматричиана",
+                        "en": "Amatriçiana",
+                        "de": "Amatriçiana"
+                    },
+                    "description": {
+                        "al": "salcë domatesh, suxhuk i tymosur, borzilok, arrë muskatë,  krem salcë",
+                        "mk": "кулен, босилек, сос од домати, морско оревче, крем сос, маслинки",
+                        "en": "salami, basil, tomato, nutmeg, cream",
+                        "de": "salami, basilikum, tomate, muskatnuss, sahne"
+                    },
+                    "price": 310
+                },
+                {
+                    "name": {
+                        "al": "Biftek Isfa",
+                        "mk": "Бифтек Исфа",
+                        "en": "Beef Isfa",
+                        "de": "Rindfleisch Isfa"
+                    },
+                    "description": {
+                        "al": "perime sezonale, balsamiko kreme, këpurdha, salcë me speca, krem salcë dhe oriz",
+                        "mk": "сезонски зеленчук, балсамико креам, печурки, сос од пиперки, крем и ориз",
+                        "en": "seasonal vegetables, balsamic cream, sauce with red peppers, cream",
+                        "de": "gemüse der saison, balsamico-creme, sauce mit paprika, sahne"
+                    },
+                    "price": 950
+                },
+                {
+                    "name": {
+                        "al": "Salmon në skarë",
+                        "mk": "Лосос на скара",
+                        "en": "Salmon fillet",
+                        "de": "Lachsfilet"
+                    },
+                    "description": {"al": "", "mk": "", "en": "", "de": ""},
+                    "price": 800
+                },
+                {
+                    "name": {
+                        "al": "Qofte Miratoce",
+                        "mk": "Миратовски ќофтиња",
+                        "en": "Meatballs Miratoce",
+                        "de": "Fleischbällchen Miratoce"
+                    },
+                    "description": {
+                        "al": "mish i bluar, patate dhe perime sezonale",
+                        "mk": "ќофтиња, компири и сезонски зеленчук",
+                        "en": "minced meat, tomato, cucumber, olives",
+                        "de": "hackfleisch, tomate, gurke, oliven"
+                    },
+                    "price": 250
+                },
+                {
+                    "name": {
+                        "al": "Tavë Shtëpie",
+                        "mk": "Домашна тава",
+                        "en": "Home Casserole",
+                        "de": "Hauskasserolle"
+                    },
+                    "description": {
+                        "al": "mish i përzier, qofte, kungulleshkë, qepë, speca qarra, këpurdha",
+                        "mk": "парчиња пилечко месо, парчиња телешко месо, ќофте, тиквици, печурки, сушена пиперка",
+                        "en": "mixed meat, meatballs, zucchini, onions, bell peppers, mushrooms",
+                        "de": "gemischtes fleisch, frikadellen, zucchini, zwiebeln, paprika, pilze"
+                    },
+                    "price": 600
+                },
+                {
+                    "name": {
+                        "al": "Kupa Arcus",
+                        "mk": "Купа Аркус",
+                        "en": "Cup Arcus",
+                        "de": "Tasse Arcus"
+                    },
+                    "description": {
+                        "al": "3 topa akullore: 2 luleshtrydhe, 1 vanille, shllag, salcë frutash",
+                        "mk": "3 топки сладолед: 2 јагода, 1 ванила, шлаг, прелив од јагода и малинки",
+                        "en": "3 ice cream balls: 2 strawberry, 1 vanilla, icing, strawberry sauce",
+                        "de": "3 eiskugeln: 2 erdbeere, 1 vanille, zuckerguss, erdbeersoße"
+                    },
+                    "price": 150
+                }
+            ],
+            "menuBtn": {
+                "id": "menu-btn",
+                "al": "Shiko të gjitha menutë",
+                "mk": "Прикажи ги сите мени",
+                "en": "View all menu",
+                "de": "Alle Menüs anzeigen"
+            }
+        },
+        "team": {
+            "teamTitle": {
+                "id": "team-title",
+                "al": "Ekipi i Restorantit",
+                "mk": "Тим на ресторан",
+                "en": "Team of Restaurant",
+                "de": "Team des Restaurants"
+            },
+            "teamHead": {
+                "id": "team-head",
+                "al": "Njihuni me profesionistët tanë",
+                "mk": "Запознајте ги нашите професионалци",
+                "en": "Meet Our Professionals",
+                "de": "Lernen Sie unsere Profis kennen"
+            }
+        },
+        "guest": {
+            "guestTitle": {
+                "id": "guest-title",
+                "al": "Libri i të ftuarve",
+                "mk": "Книга за гости",
+                "en": "Guestbook",
+                "de": "Gästebuch"
+            },
+            "guestHead": {
+                "id": "guest-head",
+                "al": "Dëshmitë e klientit",
+                "mk": "Сведоштва на клиентите",
+                "en": "Client Testimonials",
+                "de": "Kundenbewertungen"
+            },
+            "guesDescription": {
+                "id": "guest-description",
+                "al": "\"Për shkak se historia e një restoranti nuk është kurrë e plotë, ka gjithmonë diçka të re dhe të mrekullueshme për të zbuluar. dhe mbrëmja e kaluar në Arcus është si të hipësh në një anije të artë që lundron në një natë pariziane.\"",
+                "mk": "\"Бидејќи приказната за ресторанот никогаш не е целосна, секогаш има нешто ново и прекрасно да се открие. а вечерта помината во Аркус е како да се качите на златен брод кој плови низ париска ноќ.\"",
+                "en": "\"Because a restaurant’s story is never complete, there is always something new and wonderful to discover. and evening spent at Arcus is like boarding a golden ship sailing through a Parisian night.\"",
+                "de": "\"Da die Geschichte eines Restaurants nie abgeschlossen ist, gibt es immer etwas Neues und Wundervolles zu entdecken. Und ein Abend im Arcus ist wie an Bord eines goldenen Schiffes zu gehen, das durch eine Pariser Nacht segelt.\""
+            }
+        },
+        "info": {
+            "infoClient": {
+                "id": "info-client",
+                "al": "Klient çdo ditë",
+                "mk": "Клиент секој ден",
+                "en": "Client Every Day",
+                "de": "Kunde jeden Tag"
+            },
+            "infoMoments": {
+                "id": "info-moments",
+                "al": "Momente te mrekullueshme",
+                "mk": "Одлични моменти",
+                "en": "Great Moments",
+                "de": "Großartige Momente"
+            },
+            "infoCoffee": {
+                "id": "info-coffee",
+                "al": "Kupat e kafesë çdo ditë",
+                "mk": "Шолји кафе дневно",
+                "en": "Cups of Coffee Daily",
+                "de": "Täglich eine Tasse Kaffee"
+            },
+            "infoFood": {
+                "id": "info-food",
+                "al": "Lloj ushqimi",
+                "mk": "Вид на храна",
+                "en": "Type of Food",
+                "de": "Art von Essen"
+            }
+        },
+        "footer": {
+            "footerContact": {
+                "id": "footer-contact",
+                "al": "Kontaktet",
+                "mk": "Контакти",
+                "en": "Contacts",
+                "de": "Kontakte"
+            },
+            "footerWhisper": {
+                "id": "footer-whisper",
+                "al": "Na pëshpëritni për ndjenjat tuaja dhe ne do të përgatisim atë që ju nevojitet",
+                "mk": "Шепнете ни за вашите чувства, а ние ќе ви подготвиме што ви треба",
+                "en": "Whisper to us about your feelings, and we will prepare what you need",
+                "de": "Flüstern Sie uns Ihre Gefühle zu und wir bereiten vor, was Sie brauchen"
+            },
+            "infoCoffee": {
+                "id": "footer-hours",
+                "al": "Orë pune",
+                "mk": "Работно време",
+                "en": "Working Hours",
+                "de": "Arbeitszeit"
+            }
+        }
+    }
+]
